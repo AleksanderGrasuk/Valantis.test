@@ -1,0 +1,23 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.btn-pagination:not(:last-child) {
+  margin-right: 5px;
+}
+
+.btn-pagination {
+  box-sizing: border-box;
+  border: none;
+}
+
+.filters {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.input-filter:not(:last-child) {
+  margin-right: 5px;
+}

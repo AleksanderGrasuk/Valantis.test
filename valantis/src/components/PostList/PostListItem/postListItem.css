@@ -1,0 +1,19 @@
+.postlistitems {
+  box-sizing: border-box;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+}
+
+.postlistitems :not(:last-child) {
+  margin-right: 5px;
+}
+
+.postlistitem {
+  background-color: #faebd7;
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+}

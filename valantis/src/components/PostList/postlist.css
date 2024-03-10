@@ -1,0 +1,13 @@
+.postlist {
+  border: 1px solid black;
+  background-color: #faebd7;
+  width: 100%;
+  text-align: center;
+}
+
+.loading {
+  text-align: center;
+  color: aqua;
+  height: 300px;
+  line-height: 300px;
+}
