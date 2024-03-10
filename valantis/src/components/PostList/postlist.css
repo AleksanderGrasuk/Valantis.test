@@ -7,7 +7,8 @@
 
 .loading {
   text-align: center;
-  color: aqua;
+  color: #000000;
   height: 300px;
   line-height: 300px;
+  font-size: 18px;
 }

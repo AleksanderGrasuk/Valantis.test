@@ -37,22 +37,17 @@ export const useOffsetStore = create((set) => ({
 						},
 					})
 					.then((res) => {
+						set({ loading: false });
 						set({ responseData: res.data.result });
 					})
 					.catch((err) => {
 						console.log(err.message);
 						set({ error: true });
-					})
-					.finally(() => {
-						set({ loading: false });
 					});
 			})
 			.catch((err) => {
 				console.log(err.message);
 				set({ error: true });
-			})
-			.finally(() => {
-				set({ loading: false });
 			});
 	},
 	initPrice: (price: number) => set({ price }),
