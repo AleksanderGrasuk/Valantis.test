@@ -62,7 +62,9 @@ export function PostList() {
 	return (
 		<div>
 			{loading ? (
-				<div className='loading'>Loading...</div>
+				<div className='loading'>
+					<span className='loader'></span>
+				</div>
 			) : (
 				<ul className='list-group postlist'>
 					{posts.map((post) => (
